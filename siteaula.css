@@ -1,0 +1,65 @@
+body{
+    background-image: url(foto/fundo4.jpg);
+    /*background-image: linear-gradient(to left , #4E0FA6,#0597F2,#04B2D9,#05F2C7,#B6F2BF)}*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center; 
+}
+main{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 9px;
+}
+input{
+    background-color: rgb(219, 219, 219);
+}
+#fs,#fv{
+    color: red;
+    line-height:20px;
+}
+h2{
+    background-color: darkgray;
+    border-radius: 15px;
+    height: 30px;
+    width: 400px;
+}
+#d1{
+    width: 100px;
+    height: 75px;
+
+    background-color: rgb(163, 163, 163);
+    color: purple;
+    border: 5px solid rgb(0, 0, 0);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    transform: rotate(30deg);/*rotação*/
+    -ms-transform:rotate(15deg);
+}
+#d2{
+    width: 100px;
+    height: 75px;
+
+    background-color: rgb(233, 192, 192);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(18, 5, 200);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+   border-style: solid;
+   border-width: thin;/*tamanho da borda*/
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.573);
+   border-radius: 10px;
+}
+
+
+
